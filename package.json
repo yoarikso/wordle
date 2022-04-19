@@ -1,0 +1,14 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "the wordle game running on expressjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "test-wordle"
+  },
+  "author": "yoarikso",
+  "license": "MIT License",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
