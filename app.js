@@ -10,7 +10,7 @@ const port = 3000;
 app.use(express.static('src'));
 
 // Routing 
-app.get('/wordle/', (req, res) => {
+app.get('/', (req, res) => {
   let indexPage = path.join(__dirname, '/src/view/index.html');
   res.sendFile(indexPage);
   //console.log("start: index.html called");
